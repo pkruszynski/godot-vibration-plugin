@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pkruszynski.godot.plugin.vibration">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application>
+        <meta-data
+            android:name="org.godotengine.plugin.v1.GodotVibrationPlugin"
+            android:value="com.pkruszynski.godot.plugin.vibration.GodotVibrationPlugin" />
+    </application>
+</manifest>
